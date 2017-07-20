@@ -11,7 +11,7 @@ import implementation.Imaginary;
 
 
 public class SquareEquasionTest {
-	EquasionSolverImpl solver = new EquasionSolverImpl();
+	private EquasionSolverImpl solver = new EquasionSolverImpl();
 	
 	@Test(expected = SquareEquasionException.class)
 	public void linearEquasion() throws SquareEquasionException{
